@@ -1,4 +1,4 @@
-# RandomPuppy
+# RandomPuppy [![Build Status](https://travis-ci.org/melvinsh/random_puppy.svg?branch=master)](https://travis-ci.org/melvinsh/random_puppy)
 
 Get a URL to a random puppy image.
 
