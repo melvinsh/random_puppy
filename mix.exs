@@ -30,7 +30,8 @@ defmodule RandomPuppy.Mixfile do
     [
       {:httpotion, "~> 3.0.0"},
       {:json, "~> 0.3.0"},
-      {:mock, "~> 0.1.1", only: :test}
+      {:mock, "~> 0.1.1", only: :test},
+      {:credo, "~> 0.7", only: [:dev, :test]}
     ]
   end
 end
