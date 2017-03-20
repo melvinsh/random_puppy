@@ -15,8 +15,8 @@ defmodule RandomPuppy do
       |> Map.get("data")
   end
 
-  defp get_random_image(json) do
-    json
+  defp get_random_image(puppies) do
+    puppies
       |> Enum.random
   end
 
